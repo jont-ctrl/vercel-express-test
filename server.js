@@ -19,6 +19,8 @@ app.get('/items', (req, res) => {
 
 // POST create new item
 app.post('/items', (req, res) => {
+  // Example req.body:
+  // { "name": "Sample Item", "description": "A test item" }
   const item = { id: idCounter++, ...req.body };
   items.push(item);
   res.status(201).json(item);
