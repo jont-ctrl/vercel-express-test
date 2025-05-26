@@ -9,7 +9,7 @@ let items = [];
 let idCounter = 1;
 
 app.get('/', (req, res) => {
-  res.send('API is working');
+  res.send('Detta e develop branchen');
 });
 
 // GET all items
