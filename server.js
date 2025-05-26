@@ -8,6 +8,10 @@ app.use(express.json());
 let items = [];
 let idCounter = 1;
 
+app.get('/', (req, res) => {
+  res.send('API is working');
+});
+
 // GET all items
 app.get('/items', (req, res) => {
   res.json(items);
