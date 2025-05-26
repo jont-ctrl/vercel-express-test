@@ -1,0 +1,24 @@
+{
+  "name": "vercel-express-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jont-ctrl/vercel-express-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jont-ctrl/vercel-express-test/issues"
+  },
+  "homepage": "https://github.com/jont-ctrl/vercel-express-test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
